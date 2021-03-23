@@ -23,6 +23,5 @@ class DispatchActivity : AppCompatActivity() {
         SyncDataService.startActionGetPromoCodes(this)
         SyncDataService.startActionGetNotifications(this)
 //firebase
-//proveri ovde ne sum siguren dali e tocno finish()
     finish()
 }}
